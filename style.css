@@ -40,7 +40,7 @@ img{vertical-align:middle}
 .bottom{bottom:0;}
 
 .topBannerImg{
-  position: absolute;
+  position: fixed;
   background-image: url('Banner.svg');
   background-position: top right;
   width: 92em;
@@ -61,7 +61,7 @@ img{vertical-align:middle}
 .container,.w3-panel{padding:0.01em 50px}.panel{margin-top:16px;margin-bottom:16px}
 
 .w3-tiny{font-size:10px!important}.w3-small{font-size:12px!important}.medium{font-size:15px!important}.large{font-size:18px!important}.mlarge{font-size:20px!important}
-.xlarge{font-size:24px!important}.xxlarge{font-size:36px!important}.xxxlarge{font-size:48px!important}.jumbo{font-size:64px!important}
+.xlarge{font-size:24px!important}.xxlarge{font-size:36px!important}.xxxlarge{font-size:64px!important}.jumbo{font-size:64px!important}
 .left-align{text-align:left!important}.right-align{text-align:right!important}.justify{text-align:justify!important}.center{text-align:center!important}
 
 .w3-padding-small{padding:4px 8px!important}.w3-padding{padding:8px 16px!important}.w3-padding-large{padding:12px 24px!important}
@@ -76,7 +76,7 @@ img{vertical-align:middle}
 .blue,.w3-hover-blue:hover{color:#fff!important;background-color:#3c5a8a!important}
 .white,.hover-white:hover{color:#000!important;background-color:#fff!important}
 .black,.hover-black:hover{color:#fff!important;background-color:#000!important}
-.blue-grey{color:#fff!important;background-color:#95989a!important}
+.blue-grey{color:#fff!important;background-color:#717788!important}
 
 
 
@@ -107,3 +107,6 @@ img{vertical-align:middle}
 }
 
 .contenttop,.auto{margin-left:auto;margin-right:auto}.contenttop{max-width:1400px;margin-top:-130px}.auto{max-width:1140px}
+.contenttop1,.auto{margin-left:auto;margin-right:auto}.contenttop1{max-width:1400px;margin-top:100px;padding-left:125px}.auto{max-width:1140px}
+.contenttop2,.auto{margin-left:auto;margin-right:auto}.contenttop2{max-width:1400px;margin-top:100px}.auto{max-width:1140px}
+.fix{position: fixed;}
